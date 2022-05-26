@@ -23,3 +23,4 @@ class Solution:
                         count = len(sub)
                         return count
         return 1
+    
