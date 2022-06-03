@@ -21,5 +21,13 @@ class Solution:
                 rightptr -= 1
         return trap
         
+        
+        ###########################################
+        # two point method                        #
+        # 方向：左標往右，右標往左                    #
+        # 挑出目前的左/右邊 max                      #
+        # 找到後把max-下一個點，就找到左/右邊盛起來的水  # 
+        ###########################################
         # https://leetcode.com/problems/trapping-rain-water/discuss/2105614/Python-Simple-O(n)-Solution-using-Two-Pointers
-            
+        
+        
