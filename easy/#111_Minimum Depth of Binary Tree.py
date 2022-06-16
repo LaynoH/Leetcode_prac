@@ -22,4 +22,5 @@ class Solution:
                     queue.append(node.right)
             depth+=1
 # ref: https://leetcode.com/problems/minimum-depth-of-binary-tree/discuss/2158815/Python-BFS-solution
+# ref: https://www.tutorialspoint.com/python/python_deque.htm
             
