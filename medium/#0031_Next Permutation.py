@@ -25,6 +25,7 @@ class Solution:
             i+=1
             j-=1
             
-# ref: solution            
+# ref: solution
+# https://leetcode.com/media/original_images/31_Next_Permutation.gif
             
      
