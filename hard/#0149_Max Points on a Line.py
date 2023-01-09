@@ -33,4 +33,4 @@ class Solution:
                     maxS = slope[tmpS]
         return maxS+1
 
-       
+# ref: https://leetcode.com/problems/max-points-on-a-line/solutions/3016632/python-3-11-lines-w-explanation-and-example-t-m-95-97/
