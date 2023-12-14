@@ -6,6 +6,10 @@ class Solution:
         ones_row = [row.count(1) for row in grid]
         ones_col = [col.count(1) for col in zip(*grid)]
 
+        #ones_row = [sum(row) for row in grid]
+        #ones_col = [sum(col) for col in zip(*grid)]
+
+        
         for i in range(m):
             for j in range(n):
                 #res[i][j] = ones_row[i] + ones_col[j] - (m-ones_row[i]) - (n-ones_row[j])
